@@ -20,7 +20,7 @@ float humidity = 0;
 //Create an instance of the SHT1X sensor
 SHT1x sht15(A4, A5);//Data, SCK
 
-//delacre output pins for powering the sensor
+//declare output pins for powering the sensor
 int power = A3;
 int gnd = A2;
 
